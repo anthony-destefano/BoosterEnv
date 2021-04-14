@@ -1,0 +1,13 @@
+\contentsline {section}{\numberline {1}Executive Summary}{1}{section.1}%
+\contentsline {section}{\numberline {2}Reproducing DSNE 200 km Tables using CREME96}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Linear Energy Transfer (LET)}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Differential Flux}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Integral Flux}{2}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Updated 50 km Environment}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Assumptions}{2}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Linear Energy Transfer (LET)}{2}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Differential Flux}{2}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Integral Flux}{2}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Comparison of 50 km and 200 km Environments}{2}{section.4}%
+\contentsline {section}{\numberline {5}Results}{2}{section.5}%
+\contentsline {section}{References}{3}{section*.1}%
