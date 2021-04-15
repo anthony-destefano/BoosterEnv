@@ -5,9 +5,18 @@
 \BOOKMARK [2][-]{subsection.2.3}{Integral Flux}{section.2}% 5
 \BOOKMARK [1][-]{section.3}{Updated 50 km Environment}{}% 6
 \BOOKMARK [2][-]{subsection.3.1}{Assumptions}{section.3}% 7
-\BOOKMARK [2][-]{subsection.3.2}{Linear Energy Transfer \(LET\)}{section.3}% 8
-\BOOKMARK [2][-]{subsection.3.3}{Differential Flux}{section.3}% 9
-\BOOKMARK [2][-]{subsection.3.4}{Integral Flux}{section.3}% 10
-\BOOKMARK [1][-]{section.4}{Comparison of 50 km and 200 km Environments}{}% 11
-\BOOKMARK [1][-]{section.5}{Results}{}% 12
-\BOOKMARK [1][-]{section*.1}{References}{}% 13
+\BOOKMARK [3][-]{subsubsection.3.1.1}{BOLE Separation Location}{subsection.3.1}% 8
+\BOOKMARK [3][-]{subsubsection.3.1.2}{LC-39b Location}{subsection.3.1}% 9
+\BOOKMARK [3][-]{subsubsection.3.1.3}{Downrange Distance and Initial Bearing}{subsection.3.1}% 10
+\BOOKMARK [3][-]{subsubsection.3.1.4}{Magnetic Epoch and L-Shell}{subsection.3.1}% 11
+\BOOKMARK [3][-]{subsubsection.3.1.5}{L-Shell Range}{subsection.3.1}% 12
+\BOOKMARK [2][-]{subsection.3.2}{GTRN, FLUX, and LETSPEC Options for 50 km Environments}{section.3}% 13
+\BOOKMARK [1][-]{section.4}{Comparison of 50 km and 200 km Environments}{}% 14
+\BOOKMARK [2][-]{subsection.4.1}{Linear Energy Transfer \(LET\)}{section.4}% 15
+\BOOKMARK [2][-]{subsection.4.2}{Differential Flux}{section.4}% 16
+\BOOKMARK [2][-]{subsection.4.3}{Integral Flux}{section.4}% 17
+\BOOKMARK [1][-]{section.5}{Results}{}% 18
+\BOOKMARK [1][-]{section.5}{Appendix}{}% 19
+\BOOKMARK [1][-]{appendix.A}{Raw CREME96 Output for Integral LET}{}% 20
+\BOOKMARK [1][-]{appendix.B}{Processed CREME96 Flux and LET Data}{}% 21
+\BOOKMARK [1][-]{appendix.C}{Python Conversion Scripts}{}% 22
