@@ -81,7 +81,7 @@
 \title{SLS Booster Radiation Environment}
 \author{Anthony M. DeStefano}
 \company{NASA, MSFC, EV44}
-\confidential{\textbf{-- For internal NASA and partners use only --}}
+\confidential{\textbf{-- Pending STI Release --}}
 \usepackage{hyperref} 
 \begin{document}
 \maketitle
@@ -90,7 +90,7 @@
 \tableofcontents
 \listoffigures
 \listoftables
-\lstlistoflistings
+%\lstlistoflistings
 \newpage
 
 
@@ -105,6 +105,10 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Executive Summary}
+
+The purpose of the following update is to provide the Booster element with
+a low-altitude 50 km radiation environment. The SLS-SPEC-159 Cross-Program Design Specification for Natural Environments (DSNE) includes a 20 km and 200 km radiation environment, however the Booster element will only be achieving altitudes less than roughly 50 km. The updated 50 km radiation environment is derived following similar procedures as the generation of the 200 km radiation environment, as outlined in Section 3.2.13 of the DSNE. Specifically, tables for the linear energy transfer (LET), differential flux, and integral flux are given for the 50 km environment and compared with DSNE Tables 3.2.13-1 -- 3.2.13-3.
+
 
 
 \newpage
@@ -136,7 +140,7 @@ To compute the LET, the \textsf{LETSPEC} routine is used setting the following p
 	\caption{Output generated from CREME96 \textsf{LETSPEC} are plotted against DSNE Table 3.2.13-1 for SPEs and GCRs.}\label{fig:DSNE_LET_Comparison}
 \end{figure}
 
-Integral LET due to solar particle events (SPEs) and galactic cosmic rays (GCRs) are both computed as shown in Figure \ref{fig:DSNE_LET_Comparison}. Agreement in both the SPE and GCR integral LET spectra show that the CREME96 inputs were interpreted correctly. The SPE LET integral flux includes a factor of $2\textbf{x}$ on the CREME96 output to match what is in DSNE.
+Integral LET due to solar particle events (SPEs) and galactic cosmic rays (GCRs) are both computed as shown in Figure \ref{fig:DSNE_LET_Comparison}. Agreement in both the SPE and GCR integral LET spectra show that the CREME96 inputs were interpreted correctly. The SPE LET integral flux includes a factor of $2\textsf{x}$ on the CREME96 output to match what is in DSNE.
 
 
 \clearpage % forces the figure to drop before this point
@@ -213,14 +217,15 @@ In this section, the methods used to derive the DSNE tables for the 200 km envir
 
 \subsection{Assumptions}\label{ssec:Assumptions}
 
-Information about the 3-DOF DAC-1 BOLE separation was given by Patrick Montgomery on 2/2/2021. The trajectory was optimized to produce maximum loads, so a lower separation altitude is achieved. There also was no dispersion in launch azimuth. The specific data provided is as follows:
-\subsubsection{BOLE Separation Location}
-\begin{itemize}
-	\item Altitude (ft): $1.47769768\times 10^5$ to $1.56331111\times 10^5$ (or $45.04$ km to $47.65$ km)
-	\item Geodetic Latitude (deg): $28.63679$ to $28.63769$
-	\item Longitude (deg): $279.844269$ to $279.892322$
-	\item Inclination (deg): $28.48989$ to $28.49106$
-\end{itemize}
+% removed sensitive data
+%Information about the 3-DOF DAC-1 BOLE separation was given by Patrick Montgomery on 2/2/2021. The trajectory was optimized to produce maximum loads, so a lower separation altitude is achieved. There also was no dispersion in launch azimuth. The specific data provided is as follows:
+%\subsubsection{BOLE Separation Location}
+%\begin{itemize}
+%	\item Altitude (ft): $1.47769768\times 10^5$ to $1.56331111\times 10^5$ (or $45.04$ km to $47.65$ km)
+%	\item Geodetic Latitude (deg): $28.63679$ to $28.63769$
+%	\item Longitude (deg): $279.844269$ to $279.892322$
+%	\item Inclination (deg): $28.48989$ to $28.49106$
+%\end{itemize}
 
 
 \subsubsection{LC-39b Location}
@@ -302,7 +307,7 @@ The options used in the \textsf{GTRN} routine for the 50 km environments (as a b
 \end{itemize}
 
 Options for the \textsf{FLUX} and \textsf{LETSPEC} routines are the same as in Sections \ref{ssec:DifferentialFlux} and \ref{ssec:LET}, respectively.
-
+\newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -310,7 +315,7 @@ Options for the \textsf{FLUX} and \textsf{LETSPEC} routines are the same as in S
 
 \subsection{Linear Energy Transfer (LET)}
 
-The high resolution tables for the SPE and GCR LET spectra are given in Appendix~\ref{asec:ProcessCREME96Data}, Listings \ref{lst:SPE_LET_worst-case} and \ref{lst:GCR_LET_worst-case}. For a lower resolution table (that would conform to what is in DSNE), see Table \ref{tab:50kmIntegralLET}.
+%The high resolution tables for the SPE and GCR LET spectra are given in Appendix~\ref{asec:ProcessCREME96Data}, Listings \ref{lst:SPE_LET_worst-case} and \ref{lst:GCR_LET_worst-case}. For a lower resolution table (that would conform to what is in DSNE), see Table \ref{tab:50kmIntegralLET}.
 
 \begin{figure}[htbp!]
 	\centering
@@ -332,7 +337,7 @@ The high resolution tables for the SPE and GCR LET spectra are given in Appendix
 \end{figure}
 
 \begin{table}[h]
-	\caption{50 km Integral LET Flux as Shown in Figure \ref{fig:LET_COMPARISON}, worst-case lines.}
+	\caption{50 km Integral LET Flux as shown in Figure \ref{fig:LET_COMPARISON}, worst-case lines.}
 	\label{tab:50kmIntegralLET}\centering
 	\resizebox{0.65\textwidth}{!}{%
 		\begin{tabular}{|c|c|c|}
@@ -399,7 +404,7 @@ The high resolution tables for the SPE and GCR LET spectra are given in Appendix
 
 \subsection{Differential Flux}
 
-High resolution tables shown in Appendix \ref{asec:ProcessCREME96Data} in Listings \ref{lst:SPE_flux_worst-case} and \ref{lst:GCR_flux_worst-case}. The low resolution data is shown in Table \ref{tab:50kmDifferentialFlux}.
+%High resolution tables shown in Appendix \ref{asec:ProcessCREME96Data} in Listings \ref{lst:SPE_flux_worst-case} and \ref{lst:GCR_flux_worst-case}. The low resolution data is shown in Table \ref{tab:50kmDifferentialFlux}.
 
 \begin{figure}[htbp!]
 	\centering
@@ -422,7 +427,7 @@ High resolution tables shown in Appendix \ref{asec:ProcessCREME96Data} in Listin
 
 
 \begin{table}[h]
-	\caption{50 km Differential Flux as Shown in Figure \ref{fig:FLUX_COMPARISON}, worst-case lines.}
+	\caption{50 km Differential Flux as shown in Figure \ref{fig:FLUX_COMPARISON}, worst-case lines.}
 	\label{tab:50kmDifferentialFlux}\centering
 	\resizebox{0.65\textwidth}{!}{%
 		\begin{tabular}{|c|c|c|}
@@ -488,7 +493,7 @@ High resolution tables shown in Appendix \ref{asec:ProcessCREME96Data} in Listin
 
 \subsection{Integral Flux}
 
-High resolution tables are omitted from the appendix since they can be derived from Listings \ref{lst:SPE_flux_worst-case} and \ref{lst:GCR_flux_worst-case} by applying Equation \eqref{eq:power-law_fitted_Integral_Flux}. The low resolution data is shown in Table~\ref{tab:50kmIntegralFlux}.
+%High resolution tables are omitted from the appendix since they can be derived from Listings \ref{lst:SPE_flux_worst-case} and \ref{lst:GCR_flux_worst-case} by applying Equation \eqref{eq:power-law_fitted_Integral_Flux}. The low resolution data is shown in Table~\ref{tab:50kmIntegralFlux}.
 
 \begin{figure}[htbp!]
 	\centering
@@ -510,7 +515,7 @@ High resolution tables are omitted from the appendix since they can be derived f
 \end{figure}
 
 \begin{table}[h]
-	\caption{50 km Integral Flux as Shown in Figure \ref{fig:FLUX_INT_COMPARISON}, worst-case lines.}
+	\caption{50 km Integral Flux as shown in Figure \ref{fig:FLUX_INT_COMPARISON}, worst-case lines.}
 	\label{tab:50kmIntegralFlux}\centering
 	\resizebox{0.65\textwidth}{!}{%
 		\begin{tabular}{|c|c|c|}
@@ -582,60 +587,60 @@ The overall integral SPE flux reduced by a factor of $25\textsf{x}$ whereas the 
 At 1 LET (MeV-cm$^2$/mg), the SPE LET flux reduced by a factor of $22\textsf{x}$ while the GCR LET flux reduced by a factor of $3.7\textsf{x}$. However, at 10 LET (MeV-cm$^2$/mg), the SPE LET flux reduced by a factor of $137\textsf{x}$ and the GCR LET flux reduced by a factor of $965\textsf{x}$. Therefore, it is clear to see that the 50 km environments are much more benign compared with the 200 km environments that are in DSNE.
 
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage
-\appendix
-\addcontentsline{toc}{section}{Appendix}
-\section{Raw CREME96 Output for Integral LET}
-\label{asec:RawCREME96Output}
-
-\lstinputlisting[language=XML,basicstyle=\footnotesize,frame=single,
-caption={50 km worst case SPE integral LET.},label=lst:SPE_Int_LET]{Booster_50km_worst_case_SPE_worst_week_LET.let}
-
-\lstinputlisting[language=XML,basicstyle=\footnotesize,frame=single,
-caption={50 km worst case GCR integral LET.},label=lst:GCR_Int_LET]{Booster_50km_worst_case_GCR_LET.let}
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-
-
-\section{Processed CREME96 Flux and LET Data}
-\label{asec:ProcessCREME96Data}
-
-\lstinputlisting[language=XML,basicstyle=\footnotesize,frame=single,
-caption={SPE differential flux in units of p+/cm$^2$-s-MeV as a function of energy in MeV. Note, values with zero flux are omitted.},label=lst:SPE_flux_worst-case]{SPE_flux_worst-case.txt}
-
-\lstinputlisting[language=XML,basicstyle=\footnotesize,frame=single,
-caption={GCR differential flux in units of p+/cm$^2$-s-MeV as a function of energy in MeV. Note, values with zero flux are omitted.},label=lst:GCR_flux_worst-case]{GCR_flux_worst-case.txt}
-
-\lstinputlisting[language=XML,basicstyle=\footnotesize,frame=single,
-caption={SPE integral LET flux in units of \#/cm$^2$-s as a function of LET in units of MeV-cm$^2$/mg. Note, values with zero LET are omitted.},label=lst:SPE_LET_worst-case]{SPE_LET_worst-case.txt}
-
-\lstinputlisting[language=XML,basicstyle=\footnotesize,frame=single,
-caption={GCR integral LET flux in units of \#/cm$^2$-s as a function of LET in units of MeV-cm$^2$/mg. Note, values with zero LET are omitted.},label=lst:GCR_LET_worst-case]{GCR_LET_worst-case.txt}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Python Conversion Scripts}
-\label{asec:PythonConversionScripts}
-
-\lstinputlisting[language=python,basicstyle=\footnotesize,frame=single,
-caption={Python routine to plot processed raw CREME96 output.},label=lst:plot_CREME96]{plot_CREME96.py}
-
-\lstinputlisting[language=python,basicstyle=\footnotesize,frame=single,
-caption={Python routine to read raw CREME96 output and save as processed output.},label=lst:read_CREME96_flx]{read_CREME96_flx.py}
-
-\lstinputlisting[language=python,basicstyle=\footnotesize,frame=single,
-caption={Python routine to read processed CREME96 differential flux output and save as processed integral flux output.},label=lst:convert_differential_to_integral_flux]{convert_differential_to_integral_flux.py}
-
-\lstinputlisting[language=python,basicstyle=\footnotesize,frame=single,
-caption={Python routine to sample data at a different resolution with logarithmically spaced abscissa.},label=lstconvert_lower_res_data]{convert_lower_res_data.py}
-
+% removed sensitive data, code cannot be included
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newpage
+%\appendix
+%\addcontentsline{toc}{section}{Appendix}
+%\section{Raw CREME96 Output for Integral LET}
+%\label{asec:RawCREME96Output}
+%
+%\lstinputlisting[language=XML,basicstyle=\footnotesize,frame=single,
+%caption={50 km worst case SPE integral LET.},label=lst:SPE_Int_LET]{Booster_50km_worst_case_SPE_worst_week_LET.let}
+%
+%\lstinputlisting[language=XML,basicstyle=\footnotesize,frame=single,
+%caption={50 km worst case GCR integral LET.},label=lst:GCR_Int_LET]{Booster_50km_worst_case_GCR_LET.let}
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+%
+%
+%\section{Processed CREME96 Flux and LET Data}
+%\label{asec:ProcessCREME96Data}
+%
+%\lstinputlisting[language=XML,basicstyle=\footnotesize,frame=single,
+%caption={SPE differential flux in units of p+/cm$^2$-s-MeV as a function of energy in MeV. Note, values with zero flux are omitted.},label=lst:SPE_flux_worst-case]{SPE_flux_worst-case.txt}
+%
+%\lstinputlisting[language=XML,basicstyle=\footnotesize,frame=single,
+%caption={GCR differential flux in units of p+/cm$^2$-s-MeV as a function of energy in MeV. Note, values with zero flux are omitted.},label=lst:GCR_flux_worst-case]{GCR_flux_worst-case.txt}
+%
+%\lstinputlisting[language=XML,basicstyle=\footnotesize,frame=single,
+%caption={SPE integral LET flux in units of \#/cm$^2$-s as a function of LET in units of MeV-cm$^2$/mg. Note, values with zero LET are omitted.},label=lst:SPE_LET_worst-case]{SPE_LET_worst-case.txt}
+%
+%\lstinputlisting[language=XML,basicstyle=\footnotesize,frame=single,
+%caption={GCR integral LET flux in units of \#/cm$^2$-s as a function of LET in units of MeV-cm$^2$/mg. Note, values with zero LET are omitted.},label=lst:GCR_LET_worst-case]{GCR_LET_worst-case.txt}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%\section{Python Conversion Scripts}
+%\label{asec:PythonConversionScripts}
+%
+%\lstinputlisting[language=python,basicstyle=\footnotesize,frame=single,
+%caption={Python routine to plot processed raw CREME96 output.},label=lst:plot_CREME96]{plot_CREME96.py}
+%
+%\lstinputlisting[language=python,basicstyle=\footnotesize,frame=single,
+%caption={Python routine to read raw CREME96 output and save as processed output.},label=lst:read_CREME96_flx]{read_CREME96_flx.py}
+%
+%\lstinputlisting[language=python,basicstyle=\footnotesize,frame=single,
+%caption={Python routine to read processed CREME96 differential flux output and save as processed integral flux output.},label=lst:convert_differential_to_integral_flux]{convert_differential_to_integral_flux.py}
+%
+%\lstinputlisting[language=python,basicstyle=\footnotesize,frame=single,
+%caption={Python routine to sample data at a different resolution with logarithmically spaced abscissa.},label=lstconvert_lower_res_data]{convert_lower_res_data.py}
+%
 
 
 %\section{References}

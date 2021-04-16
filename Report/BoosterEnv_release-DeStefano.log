@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  16 APR 2021 10:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  16 APR 2021 11:18
 entering extended mode
-**./BoosterEnv-DeStefano.tex
-(BoosterEnv-DeStefano.tex
+**./BoosterEnv_release-DeStefano.tex
+(BoosterEnv_release-DeStefano.tex
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-03-03>
 ("C:\Users\adestefa\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hitec\hitec.cls
@@ -1109,8 +1109,8 @@ Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
 \minrowclearance=\skip71
 )
 \c@subsubsubsection=\count342
- (BoosterEnv-DeStefano.aux)
-\openout1 = `BoosterEnv-DeStefano.aux'.
+ (BoosterEnv_release-DeStefano.aux)
+\openout1 = `BoosterEnv_release-DeStefano.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
 LaTeX Font Info:    ... okay on input line 86.
@@ -1217,42 +1217,38 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 86.
 LaTeX Info: Redefining \pageref on input line 86.
 LaTeX Info: Redefining \nameref on input line 86.
- (BoosterEnv-DeStefano.out) (BoosterEnv-DeStefano.out)
+ (BoosterEnv_release-DeStefano.out)
+(BoosterEnv_release-DeStefano.out)
 \@outlinefile=\write4
-\openout4 = `BoosterEnv-DeStefano.out'.
+\openout4 = `BoosterEnv_release-DeStefano.out'.
 
-
-ABD: EveryShipout initializing macros
+ ABD: EveryShipout initializing macros
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into 
 your preamble.
  on input line 86.
 
-(BoosterEnv-DeStefano.toc)
+(BoosterEnv_release-DeStefano.toc)
 \tf@toc=\write5
-\openout5 = `BoosterEnv-DeStefano.toc'.
+\openout5 = `BoosterEnv_release-DeStefano.toc'.
 
- [1
-
-{C:/Users/adestefa/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] (Booster
-Env-DeStefano.lof
+ (BoosterEnv_release-DeStefano.lof
 Overfull \hbox (1.69897pt too wide) in paragraph at lines 3--3
  [][] [][][]\OT1/phv/m/n/10 Output gen-er-ated from CREME96 \OT1/cmss/m/n/10 FL
 UX \OT1/phv/m/n/10 and con-verted to in-te-gral fluxes 
  []
 
-)
+[1
+
+{C:/Users/adestefa/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
 \tf@lof=\write6
-\openout6 = `BoosterEnv-DeStefano.lof'.
+\openout6 = `BoosterEnv_release-DeStefano.lof'.
 
- (BoosterEnv-DeStefano.lot)
+
+(BoosterEnv_release-DeStefano.lot)
 \tf@lot=\write7
-\openout7 = `BoosterEnv-DeStefano.lot'.
-
- (BoosterEnv-DeStefano.lol)
-\tf@lol=\write8
-\openout8 = `BoosterEnv-DeStefano.lol'.
+\openout7 = `BoosterEnv_release-DeStefano.lot'.
 
 LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
 (Font)              Font shape `OT1/phv/m/sl' tried instead on input line 94.
@@ -1260,7 +1256,7 @@ LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
 
 ]
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 1
-19.
+23.
 
 ("C:\Users\adestefa\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\ts1phv.f
 d"
@@ -1282,56 +1278,56 @@ LaTeX Warning: Font shape declaration has incorrect series value `mc'.
                Found on input line 34.
 
 )
-<DSNE_LET_Comparison.png, id=197, 430.60875pt x 331.2375pt>
+<DSNE_LET_Comparison.png, id=145, 430.60875pt x 331.2375pt>
 File: DSNE_LET_Comparison.png Graphic file (type png)
 <use DSNE_LET_Comparison.png>
-Package pdftex.def Info: DSNE_LET_Comparison.png  used on input line 135.
+Package pdftex.def Info: DSNE_LET_Comparison.png  used on input line 139.
 (pdftex.def)             Requested size: 356.24886pt x 274.04254pt.
  [2] [3 <./DSNE_LET_Comparison.png>]
-<DSNE_Differential_Flux_Comparison.png, id=211, 431.11063pt x 331.73938pt>
+<DSNE_Differential_Flux_Comparison.png, id=159, 431.11063pt x 331.73938pt>
 File: DSNE_Differential_Flux_Comparison.png Graphic file (type png)
 <use DSNE_Differential_Flux_Comparison.png>
 Package pdftex.def Info: DSNE_Differential_Flux_Comparison.png  used on input l
-ine 168.
+ine 172.
 (pdftex.def)             Requested size: 356.24886pt x 274.13885pt.
  [4
 
 ] [5 <./DSNE_Differential_Flux_Comparison.png>]
-<DSNE_Integral_Flux_Comparison.png, id=227, 431.11063pt x 331.73938pt>
+<DSNE_Integral_Flux_Comparison.png, id=175, 431.11063pt x 331.73938pt>
 File: DSNE_Integral_Flux_Comparison.png Graphic file (type png)
 <use DSNE_Integral_Flux_Comparison.png>
 Package pdftex.def Info: DSNE_Integral_Flux_Comparison.png  used on input line 
-198.
+202.
 (pdftex.def)             Requested size: 356.24886pt x 274.13885pt.
  [6
 
 ] [7 <./DSNE_Integral_Flux_Comparison.png>] [8
 
-] [9]
-<SPE_LET_COMPARISON.png, id=274, 462.528pt x 346.896pt>
+] [9] [10]
+<SPE_LET_COMPARISON.png, id=224, 462.528pt x 346.896pt>
 File: SPE_LET_COMPARISON.png Graphic file (type png)
 <use SPE_LET_COMPARISON.png>
-Package pdftex.def Info: SPE_LET_COMPARISON.png  used on input line 319.
+Package pdftex.def Info: SPE_LET_COMPARISON.png  used on input line 324.
 (pdftex.def)             Requested size: 243.74771pt x 182.81123pt.
-<GCR_LET_COMPARISON.png, id=276, 462.528pt x 346.896pt>
+<GCR_LET_COMPARISON.png, id=226, 462.528pt x 346.896pt>
 File: GCR_LET_COMPARISON.png Graphic file (type png)
 <use GCR_LET_COMPARISON.png>
-Package pdftex.def Info: GCR_LET_COMPARISON.png  used on input line 326.
+Package pdftex.def Info: GCR_LET_COMPARISON.png  used on input line 331.
 (pdftex.def)             Requested size: 243.74771pt x 182.81123pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[10] [11 <./SPE_LET_COMPARISON.png> <./GCR_LET_COMPARISON.png>] [12]
-<SPE_FLUX_COMPARISON.png, id=299, 462.528pt x 346.896pt>
+[11 <./SPE_LET_COMPARISON.png> <./GCR_LET_COMPARISON.png>] [12]
+<SPE_FLUX_COMPARISON.png, id=240, 462.528pt x 346.896pt>
 File: SPE_FLUX_COMPARISON.png Graphic file (type png)
 <use SPE_FLUX_COMPARISON.png>
-Package pdftex.def Info: SPE_FLUX_COMPARISON.png  used on input line 408.
+Package pdftex.def Info: SPE_FLUX_COMPARISON.png  used on input line 413.
 (pdftex.def)             Requested size: 243.74771pt x 182.81123pt.
-<GCR_FLUX_COMPARISON.png, id=300, 462.528pt x 346.896pt>
+<GCR_FLUX_COMPARISON.png, id=241, 462.528pt x 346.896pt>
 File: GCR_FLUX_COMPARISON.png Graphic file (type png)
 <use GCR_FLUX_COMPARISON.png>
-Package pdftex.def Info: GCR_FLUX_COMPARISON.png  used on input line 415.
+Package pdftex.def Info: GCR_FLUX_COMPARISON.png  used on input line 420.
 (pdftex.def)             Requested size: 243.74771pt x 182.81123pt.
 
 
@@ -1340,15 +1336,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [13
 
  <./SPE_FLUX_COMPARISON.png> <./GCR_FLUX_COMPARISON.png>] [14]
-<SPE_FLUX_INT_COMPARISON.png, id=317, 462.528pt x 346.896pt>
+<SPE_FLUX_INT_COMPARISON.png, id=254, 462.528pt x 346.896pt>
 File: SPE_FLUX_INT_COMPARISON.png Graphic file (type png)
 <use SPE_FLUX_INT_COMPARISON.png>
-Package pdftex.def Info: SPE_FLUX_INT_COMPARISON.png  used on input line 497.
+Package pdftex.def Info: SPE_FLUX_INT_COMPARISON.png  used on input line 502.
 (pdftex.def)             Requested size: 243.74771pt x 182.81123pt.
-<GCR_FLUX_INT_COMPARISON.png, id=318, 462.528pt x 346.896pt>
+<GCR_FLUX_INT_COMPARISON.png, id=255, 462.528pt x 346.896pt>
 File: GCR_FLUX_INT_COMPARISON.png Graphic file (type png)
 <use GCR_FLUX_INT_COMPARISON.png>
-Package pdftex.def Info: GCR_FLUX_INT_COMPARISON.png  used on input line 504.
+Package pdftex.def Info: GCR_FLUX_INT_COMPARISON.png  used on input line 509.
 (pdftex.def)             Requested size: 243.74771pt x 182.81123pt.
 
 
@@ -1360,91 +1356,45 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [17
 
 ]
-("C:\Users\adestefa\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlan
-g1.sty"
-File: lstlang1.sty 2019/09/10 1.8c listings language file
-)
-("C:\Users\adestefa\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstmis
-c.sty"
-File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
-) (Booster_50km_worst_case_SPE_worst_week_LET.let [18] [19] [20])
-(Booster_50km_worst_case_GCR_LET.let [21] [22] [23]) (SPE_flux_worst-case.txt
-[24] [25] [26] [27] [28]) (GCR_flux_worst-case.txt [29] [30] [31] [32])
-(SPE_LET_worst-case.txt [33] [34] [35] [36] [37] [38] [39] [40] [41] [42]
-[43] [44] [45] [46] [47] [48] [49]) (GCR_LET_worst-case.txt [50] [51] [52]
-[53] [54] [55] [56] [57] [58] [59] [60] [61] [62] [63] [64])
-("C:\Users\adestefa\AppData\Local\Programs\MiKTeX 2.9\tex/latex/listings\lstlan
-g1.sty"
-File: lstlang1.sty 2019/09/10 1.8c listings language file
-) (plot_CREME96.py
-LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <8> not available
-(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 3.
-LaTeX Font Info:    Trying to load font information for OMS+phv on input line 6
-.
-
-("C:\Users\adestefa\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omsphv.f
-d"
-File: omsphv.fd 
-)
-LaTeX Font Info:    Font shape `OMS/phv/m/it' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
- [65] [66]) (read_CREME96_flx.py
-LaTeX Font Info:    Trying to load font information for OML+phv on input line 6
-.
-
-("C:\Users\adestefa\AppData\Local\Programs\MiKTeX 2.9\tex/latex/psnfss\omlphv.f
-d"
-File: omlphv.fd 
-)
-LaTeX Font Info:    Font shape `OML/phv/m/it' in size <8> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 6.
- [67] [68]) (convert_differential_to_integral_flux.py [69]
-LaTeX Font Info:    Font shape `OML/phv/m/n' in size <8> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 24.
-)
-(convert_lower_res_data.py [70]) [71]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 648.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 648.
- (BoosterEnv-DeStefano.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 648.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 648.
-Package rerunfilecheck Info: File `BoosterEnv-DeStefano.out' has not changed.
-(rerunfilecheck)             Checksum: EA38B0B18BC7393B455C67CF6474677A;1558.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 648.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 653.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 653.
+ (BoosterEnv_release-DeStefano.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 653.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 653.
+Package rerunfilecheck Info: File `BoosterEnv_release-DeStefano.out' has not ch
+anged.
+(rerunfilecheck)             Checksum: 1C4F22ED33078B8D55C48B65CEACA535;1224.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 653.
  ) 
 Here is how much of TeX's memory you used:
- 37931 strings out of 481292
- 863839 string characters out of 2906380
- 1857577 words of memory out of 3000000
- 49728 multiletter control sequences out of 15000+200000
- 566710 words of font info for 90 fonts, out of 3000000 for 9000
+ 34265 strings out of 481292
+ 811934 string characters out of 2906380
+ 1193224 words of memory out of 3000000
+ 49115 multiletter control sequences out of 15000+200000
+ 560652 words of font info for 82 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,12n,98p,719b,2499s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,11n,98p,727b,746s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\adestefa\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/mathabx/d
-pi600\matha8.pk> <C:\Users\adestefa\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/pu
-blic/mathabx/dpi600\mathx10.pk> <C:\Users\adestefa\AppData\Local\MiKTeX\2.9\fon
-ts/pk/ljfour/public/mathabx/dpi600\matha10.pk> <C:\Users\adestefa\AppData\Local
-\MiKTeX\2.9\fonts/pk/ljfour/public/mathabx/dpi600\matha7.pk>{C:/Users/adestefa/
-AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/adestef
-a/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
+pi600\mathx10.pk> <C:\Users\adestefa\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/p
+ublic/mathabx/dpi600\matha10.pk> <C:\Users\adestefa\AppData\Local\MiKTeX\2.9\fo
+nts/pk/ljfour/public/mathabx/dpi600\matha7.pk>{C:/Users/adestefa/AppData/Local/
+Programs/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Users/adestefa/AppData/Loca
+l/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/adest
+efa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi5.pfb>
+<C:/Users/adestefa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmmi7.pfb><C:/Users/adestefa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/amsfonts/cm/cmr10.pfb><C:/Users/adestefa/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/adestefa/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/adestefa/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><
 C:/Users/adestefa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmmi5.pfb><C:/Users/adestefa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmmi7.pfb><C:/Users/adestefa/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/adestefa/AppData/Local/Pr
-ograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/adestefa/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Us
-ers/adestefa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mss10.pfb><C:/Users/adestefa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmssbx10.pfb><C:/Users/adestefa/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/adestefa/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/adestefa/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Users/a
-destefa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><
-C:/Users/adestefa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/urw/helvetic/uh
-vro8a.pfb>
-Output written on BoosterEnv-DeStefano.pdf (73 pages, 3972279 bytes).
+/cm/cmtt8.pfb><C:/Users/adestefa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+urw/helvetic/uhvb8a.pfb><C:/Users/adestefa/AppData/Local/Programs/MiKTeX 2.9/fo
+nts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/adestefa/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on BoosterEnv_release-DeStefano.pdf (19 pages, 3321002 bytes).
 PDF statistics:
- 4202 PDF objects out of 4296 (max. 8388607)
- 3064 named destinations out of 3580 (max. 500000)
- 234 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 363 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
+ 194 words of extra memory for PDF output out of 10000 (max. 10000000)
 
