@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  16 APR 2021 11:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.17)  21 APR 2021 09:25
 entering extended mode
 **./BoosterEnv_release-DeStefano.tex
 (BoosterEnv_release-DeStefano.tex
@@ -1233,20 +1233,19 @@ your preamble.
 \tf@toc=\write5
 \openout5 = `BoosterEnv_release-DeStefano.toc'.
 
- (BoosterEnv_release-DeStefano.lof
+ (BoosterEnv_release-DeStefano.lof [1
+
+{C:/Users/adestefa/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
 Overfull \hbox (1.69897pt too wide) in paragraph at lines 3--3
  [][] [][][]\OT1/phv/m/n/10 Output gen-er-ated from CREME96 \OT1/cmss/m/n/10 FL
 UX \OT1/phv/m/n/10 and con-verted to in-te-gral fluxes 
  []
 
-[1
-
-{C:/Users/adestefa/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
+)
 \tf@lof=\write6
 \openout6 = `BoosterEnv_release-DeStefano.lof'.
 
-
-(BoosterEnv_release-DeStefano.lot)
+ (BoosterEnv_release-DeStefano.lot)
 \tf@lot=\write7
 \openout7 = `BoosterEnv_release-DeStefano.lot'.
 
@@ -1278,13 +1277,13 @@ LaTeX Warning: Font shape declaration has incorrect series value `mc'.
                Found on input line 34.
 
 )
-<DSNE_LET_Comparison.png, id=145, 430.60875pt x 331.2375pt>
+<DSNE_LET_Comparison.png, id=153, 430.60875pt x 331.2375pt>
 File: DSNE_LET_Comparison.png Graphic file (type png)
 <use DSNE_LET_Comparison.png>
 Package pdftex.def Info: DSNE_LET_Comparison.png  used on input line 139.
 (pdftex.def)             Requested size: 356.24886pt x 274.04254pt.
  [2] [3 <./DSNE_LET_Comparison.png>]
-<DSNE_Differential_Flux_Comparison.png, id=159, 431.11063pt x 331.73938pt>
+<DSNE_Differential_Flux_Comparison.png, id=167, 431.11063pt x 331.73938pt>
 File: DSNE_Differential_Flux_Comparison.png Graphic file (type png)
 <use DSNE_Differential_Flux_Comparison.png>
 Package pdftex.def Info: DSNE_Differential_Flux_Comparison.png  used on input l
@@ -1293,7 +1292,7 @@ ine 172.
  [4
 
 ] [5 <./DSNE_Differential_Flux_Comparison.png>]
-<DSNE_Integral_Flux_Comparison.png, id=175, 431.11063pt x 331.73938pt>
+<DSNE_Integral_Flux_Comparison.png, id=183, 431.11063pt x 331.73938pt>
 File: DSNE_Integral_Flux_Comparison.png Graphic file (type png)
 <use DSNE_Integral_Flux_Comparison.png>
 Package pdftex.def Info: DSNE_Integral_Flux_Comparison.png  used on input line 
@@ -1304,30 +1303,30 @@ Package pdftex.def Info: DSNE_Integral_Flux_Comparison.png  used on input line
 ] [7 <./DSNE_Integral_Flux_Comparison.png>] [8
 
 ] [9] [10]
-<SPE_LET_COMPARISON.png, id=224, 462.528pt x 346.896pt>
+<SPE_LET_COMPARISON.png, id=232, 462.528pt x 346.896pt>
 File: SPE_LET_COMPARISON.png Graphic file (type png)
 <use SPE_LET_COMPARISON.png>
-Package pdftex.def Info: SPE_LET_COMPARISON.png  used on input line 324.
+Package pdftex.def Info: SPE_LET_COMPARISON.png  used on input line 325.
 (pdftex.def)             Requested size: 243.74771pt x 182.81123pt.
-<GCR_LET_COMPARISON.png, id=226, 462.528pt x 346.896pt>
+<GCR_LET_COMPARISON.png, id=234, 462.528pt x 346.896pt>
 File: GCR_LET_COMPARISON.png Graphic file (type png)
 <use GCR_LET_COMPARISON.png>
-Package pdftex.def Info: GCR_LET_COMPARISON.png  used on input line 331.
+Package pdftex.def Info: GCR_LET_COMPARISON.png  used on input line 332.
 (pdftex.def)             Requested size: 243.74771pt x 182.81123pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [11 <./SPE_LET_COMPARISON.png> <./GCR_LET_COMPARISON.png>] [12]
-<SPE_FLUX_COMPARISON.png, id=240, 462.528pt x 346.896pt>
+<SPE_FLUX_COMPARISON.png, id=248, 462.528pt x 346.896pt>
 File: SPE_FLUX_COMPARISON.png Graphic file (type png)
 <use SPE_FLUX_COMPARISON.png>
-Package pdftex.def Info: SPE_FLUX_COMPARISON.png  used on input line 413.
+Package pdftex.def Info: SPE_FLUX_COMPARISON.png  used on input line 414.
 (pdftex.def)             Requested size: 243.74771pt x 182.81123pt.
-<GCR_FLUX_COMPARISON.png, id=241, 462.528pt x 346.896pt>
+<GCR_FLUX_COMPARISON.png, id=249, 462.528pt x 346.896pt>
 File: GCR_FLUX_COMPARISON.png Graphic file (type png)
 <use GCR_FLUX_COMPARISON.png>
-Package pdftex.def Info: GCR_FLUX_COMPARISON.png  used on input line 420.
+Package pdftex.def Info: GCR_FLUX_COMPARISON.png  used on input line 421.
 (pdftex.def)             Requested size: 243.74771pt x 182.81123pt.
 
 
@@ -1336,15 +1335,15 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [13
 
  <./SPE_FLUX_COMPARISON.png> <./GCR_FLUX_COMPARISON.png>] [14]
-<SPE_FLUX_INT_COMPARISON.png, id=254, 462.528pt x 346.896pt>
+<SPE_FLUX_INT_COMPARISON.png, id=262, 462.528pt x 346.896pt>
 File: SPE_FLUX_INT_COMPARISON.png Graphic file (type png)
 <use SPE_FLUX_INT_COMPARISON.png>
-Package pdftex.def Info: SPE_FLUX_INT_COMPARISON.png  used on input line 502.
+Package pdftex.def Info: SPE_FLUX_INT_COMPARISON.png  used on input line 503.
 (pdftex.def)             Requested size: 243.74771pt x 182.81123pt.
-<GCR_FLUX_INT_COMPARISON.png, id=255, 462.528pt x 346.896pt>
+<GCR_FLUX_INT_COMPARISON.png, id=263, 462.528pt x 346.896pt>
 File: GCR_FLUX_INT_COMPARISON.png Graphic file (type png)
 <use GCR_FLUX_INT_COMPARISON.png>
-Package pdftex.def Info: GCR_FLUX_INT_COMPARISON.png  used on input line 509.
+Package pdftex.def Info: GCR_FLUX_INT_COMPARISON.png  used on input line 510.
 (pdftex.def)             Requested size: 243.74771pt x 182.81123pt.
 
 
@@ -1356,24 +1355,24 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [17
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 653.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 653.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 654.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 654.
  (BoosterEnv_release-DeStefano.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 653.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 653.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 654.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 654.
 Package rerunfilecheck Info: File `BoosterEnv_release-DeStefano.out' has not ch
 anged.
-(rerunfilecheck)             Checksum: 1C4F22ED33078B8D55C48B65CEACA535;1224.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 653.
+(rerunfilecheck)             Checksum: 709C545993670401E12E5364CF23E734;1308.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 654.
  ) 
 Here is how much of TeX's memory you used:
- 34265 strings out of 481292
- 811934 string characters out of 2906380
+ 34267 strings out of 481292
+ 811974 string characters out of 2906380
  1193224 words of memory out of 3000000
- 49115 multiletter control sequences out of 15000+200000
+ 49116 multiletter control sequences out of 15000+200000
  560652 words of font info for 82 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,11n,98p,727b,746s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 68i,11n,98p,793b,819s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\adestefa\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/mathabx/d
 pi600\mathx10.pk> <C:\Users\adestefa\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/p
 ublic/mathabx/dpi600\matha10.pk> <C:\Users\adestefa\AppData\Local\MiKTeX\2.9\fo
@@ -1392,9 +1391,9 @@ C:/Users/adestefa/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 urw/helvetic/uhvb8a.pfb><C:/Users/adestefa/AppData/Local/Programs/MiKTeX 2.9/fo
 nts/type1/urw/helvetic/uhvr8a.pfb><C:/Users/adestefa/AppData/Local/Programs/MiK
 TeX 2.9/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on BoosterEnv_release-DeStefano.pdf (19 pages, 3321002 bytes).
+Output written on BoosterEnv_release-DeStefano.pdf (19 pages, 3323049 bytes).
 PDF statistics:
- 363 PDF objects out of 1000 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
- 194 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 371 PDF objects out of 1000 (max. 8388607)
+ 64 named destinations out of 1000 (max. 500000)
+ 202 words of extra memory for PDF output out of 10000 (max. 10000000)
 
